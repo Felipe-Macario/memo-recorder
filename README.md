@@ -1,14 +1,31 @@
-# Voice Memo App Using HTML5, Media Recorder and getUserMedia APIs
+<h1 align="center">🔉 Memo</h1>
+<p align="center">🌱 Projeto desenvolvido para gravar e tocar o som do microfone nativamente pelas APIs do browser</p>
 
-## Running
+<p align="center">
+    <img alt="Home" src=".github/recorder-home.png" width="100%">
+    <img alt="Recording" src=".github/recorder.png" width="100%">
+</p>
 
-- npm ci && npm start
+## 🛠 Tecnologias usadas
 
-## Demo
+- [Node.js](https://nodejs.org/)
+- [http-server](https://github.com/http-party/http-server)
 
-- When you click start recording it'll record your voice and then play it .
+## ⚙️ Como rodar a aplicação
 
+```bash
+# Clone este repositório
+$ git clone https://github.com/Felipe-Macario/memo-recorder.git
 
-## Credits
+# Instale as dependências
+$ npm install
 
-- Layout got from [Ettrics' CodePen](https://codepen.io/ettrics/pen/KpzzQZ)
+# Inicie a aplicação
+$ npm start
+```
+
+O servidor iniciará na porta 8080, para acessar a aplicação utilize a url [`http://localhost:8080`](http://localhost:8080) ou a url que vai aparecer no console após o npm start.
+
+### 🚕 Credits
+- Projeto seguindo o vídeo do [Erick Wendel](https://www.youtube.com/watch?v=Pd_LS7p_BX4)
+- Layout de [Ettrics' CodePen](https://codepen.io/ettrics/pen/KpzzQZ)
